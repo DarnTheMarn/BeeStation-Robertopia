@@ -666,6 +666,21 @@
 	M.overeatduration = 0
 	return ..()
 
+/datum/reagent/toxin/maltodextrin
+	name = "Maltodextrin"
+	description = "A common filler found in processed foods. Leaves you full without providing any nutritional value."
+	silent_toxin = TRUE
+	taste_description = "processed goodness"
+	reagent_state = LIQUID
+	color = "#ffffff"
+	chem_flags = CHEMICAL_RNG_GENERAL
+	metabolization_rate = 0.05 * REAGENTS_METABOLISM
+	toxpwr = 0
+
+/datum/reagent/toxin/maltodextrin/on_mob_delete(mob/living/M) // After it has fully metabolized, reduce nutrition based on original amount
+		M.adjust_nutrition(current_cycle*-1)
+		..()
+
 /datum/reagent/toxin/coniine
 	name = "Coniine"
 	description = "Coniine metabolizes extremely slowly, but deals high amounts of toxin damage and stops breathing."
