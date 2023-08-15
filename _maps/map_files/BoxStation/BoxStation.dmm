@@ -1070,8 +1070,11 @@
 /area/security/main)
 "aeB" = (
 /obj/structure/table,
-/obj/item/stack/package_wrap,
-/obj/item/pen,
+/obj/machinery/microwave{
+	desc = "Cooks and boils stuff, somehow.";
+	pixel_x = -3;
+	pixel_y = 5
+	},
 /turf/open/floor/plasteel,
 /area/security/main)
 "aeG" = (
@@ -9361,6 +9364,12 @@
 /area/quartermaster/office)
 "btA" = (
 /obj/machinery/camera/autoname,
+/obj/structure/table,
+/obj/machinery/microwave{
+	desc = "Cooks and boils stuff, somehow.";
+	pixel_x = -3;
+	pixel_y = 5
+	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "btG" = (
@@ -16940,6 +16949,12 @@
 /obj/machinery/portable_atmospherics/canister,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
+"cqY" = (
+/mob/living/simple_animal/crab/Coffee,
+/turf/open/floor/plasteel/white/side{
+	dir = 10
+	},
+/area/science/research)
 "cra" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1;
@@ -19706,7 +19721,6 @@
 "cMw" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted,
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/captain)
 "cMD" = (
@@ -20095,6 +20109,11 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
+"cSX" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel,
+/area/engine/break_room)
 "cSZ" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -29003,7 +29022,6 @@
 "hzb" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/tile/dark_blue/fourcorners/contrasted,
-/obj/item/storage/fancy/donut_box,
 /obj/item/radio/intercom{
 	pixel_y = -28
 	},
@@ -31555,7 +31573,6 @@
 /area/vacant_room/commissary)
 "iKk" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/fancy/donut_box,
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -32314,7 +32331,6 @@
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 10
 	},
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/dark,
 /area/bridge/meeting_room)
 "jdt" = (
@@ -44836,7 +44852,6 @@
 /obj/machinery/light_switch{
 	pixel_x = -20
 	},
-/mob/living/simple_animal/crab/Coffee,
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "pps" = (
@@ -49103,10 +49118,6 @@
 "rog" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
-/obj/item/storage/box/donkpockets{
-	pixel_x = 3;
-	pixel_y = 3
-	},
 /obj/item/storage/pill_bottle/dice,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
@@ -53746,9 +53757,6 @@
 /area/crew_quarters/fitness)
 "tvf" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/fancy/donut_box{
-	pixel_y = 2
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -57862,6 +57870,11 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"vGt" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/white,
+/area/science/research)
 "vGV" = (
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 4
@@ -60159,6 +60172,15 @@
 /obj/structure/flora/rock/pile,
 /turf/open/floor/grass,
 /area/hallway/secondary/command)
+"wSW" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	desc = "Cooks and boils stuff, somehow.";
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel,
+/area/engine/break_room)
 "wUe" = (
 /obj/machinery/computer/station_alert{
 	dir = 4
@@ -93772,7 +93794,7 @@ bYN
 kjp
 caA
 caA
-bZy
+cSX
 haz
 bZu
 cfb
@@ -94029,7 +94051,7 @@ jcC
 jcZ
 jeB
 caA
-bZy
+wSW
 haz
 bZy
 cHw
@@ -106850,7 +106872,7 @@ bpR
 biL
 bsS
 box
-bWr
+vGt
 rRU
 byf
 bzx
@@ -109930,7 +109952,7 @@ pDJ
 blI
 bnn
 ppc
-bpZ
+cqY
 kUF
 bta
 lxd
