@@ -10066,18 +10066,12 @@
 /area/quartermaster/miningoffice)
 "bcE" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -3;
-	pixel_y = 5
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
 "bcF" = (
 /obj/structure/table,
-/obj/item/storage/box/donkpockets,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
@@ -16010,7 +16004,6 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/grimy,
 /area/bridge)
 "bIS" = (
@@ -16510,7 +16503,6 @@
 /area/crew_quarters/heads/captain)
 "bMM" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain)
 "bMN" = (
@@ -16733,7 +16725,6 @@
 /area/bridge/meeting_room/council)
 "bOC" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/carpet/royalblue,
 /area/bridge/meeting_room/council)
 "bOH" = (
@@ -18805,7 +18796,6 @@
 /area/engine/engineering)
 "cav" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
@@ -25283,7 +25273,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/carpet/blue,
 /area/bridge/showroom/corporate)
 "cDa" = (
@@ -36586,7 +36575,6 @@
 /area/chapel/office)
 "eeF" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
 /obj/machinery/status_display/ai{
 	pixel_x = 32
 	},
@@ -37206,9 +37194,13 @@
 /area/bridge)
 "elE" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/toolbox/mechanical,
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 1
+	},
+/obj/machinery/microwave{
+	desc = "Cooks and boils stuff, somehow.";
+	pixel_x = -3;
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
@@ -52434,7 +52426,6 @@
 /obj/machinery/status_display/ai{
 	pixel_x = -32
 	},
-/obj/item/storage/box/donkpockets,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
@@ -60451,6 +60442,7 @@
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 8
 	},
+/obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
 "mld" = (
@@ -61528,7 +61520,6 @@
 	dir = 4;
 	pixel_x = -23
 	},
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
@@ -70191,6 +70182,7 @@
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 1
 	},
+/obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel,
 /area/engine/break_room)
 "pAL" = (
@@ -70453,6 +70445,7 @@
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 4
 	},
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
 "pFO" = (
@@ -89520,7 +89513,6 @@
 /area/medical/chemistry)
 "whg" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 1
 	},
