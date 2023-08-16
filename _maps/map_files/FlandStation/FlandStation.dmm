@@ -17337,9 +17337,6 @@
 /obj/machinery/microwave{
 	pixel_y = 5
 	},
-/obj/effect/spawner/lootdrop/donkpockets{
-	pixel_y = 6
-	},
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/plasteel/tiled,
 /area/medical/virology)
@@ -17950,7 +17947,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
-/obj/item/storage/fancy/donut_box,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -35862,7 +35858,6 @@
 /obj/effect/turf_decal/bot{
 	dir = 1
 	},
-/obj/item/storage/fancy/donut_box,
 /obj/item/paper/pamphlet/gateway,
 /obj/item/paper/pamphlet/gateway,
 /obj/item/paper/pamphlet/gateway,
@@ -35880,7 +35875,6 @@
 /area/security/checkpoint)
 "jvr" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain)
 "jvx" = (
@@ -54752,7 +54746,6 @@
 	pixel_y = 4
 	},
 /obj/item/pen,
-/obj/item/reagent_containers/food/snacks/cookie,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
@@ -73822,7 +73815,6 @@
 /area/engine/engine_room)
 "sVS" = (
 /obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/effect/spawner/lootdrop/donkpockets{
 	pixel_x = -4;
 	pixel_y = 4
@@ -87701,7 +87693,6 @@
 /area/engine/engine_room)
 "weS" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -97038,7 +97029,6 @@
 	pixel_x = 5;
 	pixel_y = 6
 	},
-/obj/effect/spawner/lootdrop/three_course_meal,
 /obj/machinery/power/apc/auto_name/south{
 	pixel_y = -24
 	},
