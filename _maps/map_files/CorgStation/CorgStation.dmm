@@ -1894,8 +1894,6 @@
 /area/crew_quarters/cryopods)
 "awT" = (
 /obj/structure/table/reinforced,
-/obj/effect/spawner/lootdrop/donkpockets,
-/obj/effect/spawner/lootdrop/donkpockets,
 /obj/machinery/light/small,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -8246,7 +8244,6 @@
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
 /obj/item/radio,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
@@ -8641,7 +8638,6 @@
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
 /obj/machinery/airalarm/directional/south,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/tile/red/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/security/checkpoint/science)
@@ -11122,7 +11118,6 @@
 /area/space/nearstation)
 "dtW" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
@@ -11643,6 +11638,8 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
+/obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "dEc" = (
@@ -16693,6 +16690,11 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
 "fow" = (
@@ -21731,11 +21733,11 @@
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
 "gVu" = (
-/obj/vehicle/ridden/wheelchair{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 8
+	},
+/obj/vehicle/ridden/wheelchair{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
@@ -27538,6 +27540,11 @@
 	icon_state = "1-8"
 	},
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/structure/table/glass,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/aft)
 "iRJ" = (
@@ -36380,6 +36387,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/secondary)
+"lME" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel,
+/area/security/brig)
 "lMI" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 4
@@ -36978,7 +36994,6 @@
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
 /obj/machinery/airalarm/directional/east,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/tile/red/fourcorners/contrasted,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/plasteel/dark,
@@ -47680,6 +47695,11 @@
 	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/neutral,
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
 /turf/open/floor/plasteel/dark,
 /area/quartermaster/storage)
 "pyU" = (
@@ -50371,6 +50391,18 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners/contrasted,
 /turf/open/floor/plasteel,
 /area/medical/storage)
+"qsa" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/structure/table/glass,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/aft)
 "qsm" = (
 /obj/machinery/computer/crew{
 	dir = 8
@@ -58722,6 +58754,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
+"tah" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted,
+/obj/effect/turf_decal/tile/neutral,
+/obj/structure/table,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/dark,
+/area/quartermaster/storage)
 "tap" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/item/clothing/under/suit/black/female,
@@ -71934,7 +71973,6 @@
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
 /obj/machinery/airalarm/directional/south,
-/obj/item/storage/fancy/donut_box,
 /obj/effect/turf_decal/tile/red/fourcorners/contrasted,
 /turf/open/floor/plasteel/dark,
 /area/security/checkpoint/supply)
@@ -115162,7 +115200,7 @@ jxK
 qTW
 mqm
 oRA
-rOj
+lME
 fZM
 unc
 sHZ
@@ -117756,7 +117794,7 @@ ycS
 gXU
 aSf
 pyK
-lLj
+tah
 pSO
 aFm
 lLj
@@ -119842,7 +119880,7 @@ pGV
 oaL
 bSV
 bCP
-bCP
+qsa
 iRG
 tij
 tij
