@@ -678,7 +678,7 @@
 	toxpwr = 0
 
 /datum/reagent/toxin/maltodextrin/on_mob_delete(mob/living/M) // After it has fully metabolized, reduce nutrition based on original amount
-		M.adjust_nutrition(current_cycle*-1)
+		M.adjust_nutrition(current_cycle*-2)
 		..()
 
 /datum/reagent/toxin/coniine
