@@ -772,7 +772,7 @@
 
 /datum/supply_pack/security/armory/russian
 	name = "Russian Surplus Crate"
-	desc = "Hello Comrade, we have the most modern russian military equipment the black market can offer, for the right price of course. Sadly we couldnt remove the lock so it requires Armory access to open."
+	desc = "Hello Comrade, we have the most modern russian military equipment the black market can offer, for the right price of course. Sadly the lock is rusted shut."
 	cost = 4000
 	contraband = TRUE
 	max_supply = 3
