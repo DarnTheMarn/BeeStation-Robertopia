@@ -776,6 +776,8 @@
 	cost = 4000
 	contraband = TRUE
 	max_supply = 3
+	access = ACCESS_SYNDICATE_LEADER
+	access_budget = ACCESS_SYNDICATE_LEADER
 	contains = list(/obj/item/reagent_containers/food/snacks/rationpack,
 					/obj/item/ammo_box/a762,
 					/obj/item/storage/toolbox/ammo,
