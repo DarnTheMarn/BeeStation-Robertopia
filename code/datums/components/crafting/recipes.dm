@@ -308,7 +308,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/pulseslug
@@ -320,7 +320,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/dragonsbreath
@@ -330,7 +330,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/frag12
@@ -343,7 +343,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/ionslug
@@ -355,7 +355,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/improvisedslug
@@ -368,20 +368,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
-	dangerous_craft = TRUE
-
-/datum/crafting_recipe/improvisedglassslug
-	name = "Glasspack Shotgun Shell"
-	result = /obj/item/ammo_casing/shotgun/improvised/glasspack
-	reqs = list(/obj/item/grenade/chem_grenade = 1,
-				/obj/item/stack/sheet/glass = 1,
-				/obj/item/stack/cable_coil = 1,
-				/datum/reagent/fuel = 10)
-	tools = list(TOOL_SCREWDRIVER)
-	time = 5
-	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/laserslug
@@ -393,7 +380,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/a762improv
@@ -406,20 +393,7 @@
 	tools = list(TOOL_SCREWDRIVER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
-	dangerous_craft = TRUE
-
-/datum/crafting_recipe/a762hotload
-	name = "Hot-Loaded 7.62 Cartridge"
-	result = /obj/item/ammo_casing/a762/improv/hotload
-	reqs = list(/obj/item/grenade/chem_grenade = 1,
-				/obj/item/stack/sheet/iron = 1,
-				/obj/item/stack/cable_coil = 1,
-				/datum/reagent/blackpowder = 10)
-	tools = list(TOOL_SCREWDRIVER)
-	time = 5
-	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_TOTAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/improv9mm_pack
@@ -433,7 +407,7 @@
 	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	time = 15
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_TOTAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/improv10mm_pack
@@ -447,7 +421,18 @@
 	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	time = 15
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_TOTAMMO
+	dangerous_craft = TRUE
+/datum/crafting_recipe/improv38
+	name = "Improvised .38 Cartridge"
+	result = /obj/item/ammo_casing/c38/improv
+	reqs = list(/obj/item/stack/sheet/ammocasing = 1,
+	 			/obj/item/stack/sheet/iron = 1,
+				/datum/reagent/fuel = 5)
+	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
+	time = 15
+	category = CAT_WEAPONRY
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/improv38_pack
@@ -461,7 +446,7 @@
 	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	time = 15
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_SECAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/improv357
@@ -474,7 +459,7 @@
 	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	time = 5
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_TOTAMMO
 	dangerous_craft = TRUE
 
 /datum/crafting_recipe/pipesmg_mag
@@ -487,7 +472,7 @@
 	tools = list(TOOL_WELDER, TOOL_WIRECUTTER)
 	time = 50
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_TOTAMMO
 
 /datum/crafting_recipe/arrow
 	name = "Arrow"
@@ -497,7 +482,7 @@
 				/obj/item/stack/sheet/silk = 1,
 				/obj/item/stack/rods = 1) //1 metal sheet = 2 rods= 2 arrows
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_PRIMAL
 
 /datum/crafting_recipe/bone_arrow
 	name = "Bone Arrow"
@@ -507,7 +492,7 @@
 				/obj/item/stack/sheet/sinew = 1,
 				/obj/item/ammo_casing/caseless/arrow/ash = 1)
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_PRIMAL
 
 /datum/crafting_recipe/ashen_arrow
 	name = "Ashen arrow"
@@ -516,7 +501,7 @@
 	time = 30
 	reqs = list(/obj/item/ammo_casing/caseless/arrow/wood = 1)
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_PRIMAL
 
 /datum/crafting_recipe/bronze_arrow
 	name = "Bronze arrow"
@@ -526,7 +511,7 @@
 				/obj/item/stack/sheet/bronze = 1,
 				/obj/item/stack/sheet/silk = 1)
 	category = CAT_WEAPONRY
-	subcategory = CAT_AMMO
+	subcategory = CAT_PRIMAL
 
 /datum/crafting_recipe/ishotgun
 	name = "Improvised Shotgun"

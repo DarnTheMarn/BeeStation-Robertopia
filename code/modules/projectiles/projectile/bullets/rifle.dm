@@ -20,14 +20,3 @@
 	//Possible damage range between 27 and 30
 	damage = 30
 	armour_penetration = 0
-
-/obj/projectile/bullet/a762/improv/Initialize(mapload)
-	. = ..()
-	//Actual damage of projectile is reduced by 0 to 3 damage
-	damage -= (round(rand(0, 3), 1))
-
-/obj/projectile/bullet/a762/improv/hotload
-	//Possible damage between 32 and 35
-	damage = 35
-	speed = 0.7
-	armour_penetration = 15

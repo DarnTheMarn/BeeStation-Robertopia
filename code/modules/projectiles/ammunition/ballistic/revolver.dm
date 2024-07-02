@@ -16,7 +16,6 @@
 	name = "improv .357 bullet casing"
 	desc = "An improvised .357 bullet casing."
 	projectile_type = /obj/projectile/bullet/a357/improv
-	variance = 15
 
 // 7.62x38mmR (Nagant Revolver)
 
@@ -88,7 +87,6 @@
 	desc = "An improvised .38 bullet casing."
 	caliber = "38"
 	projectile_type = /obj/projectile/bullet/c38/improv
-	variance = 10
 
 /obj/item/ammo_casing/caseless/mime
 	name = "invisible .38 bullet casing"

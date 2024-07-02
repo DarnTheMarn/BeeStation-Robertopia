@@ -17,7 +17,8 @@
 	var/list/categories = list(
 				CAT_WEAPONRY = list(
 					CAT_WEAPON,
-					CAT_AMMO,
+					CAT_SECAMMO,
+					CAT_TOTAMMO
 				),
 				CAT_ROBOT = CAT_NONE,
 				CAT_MISC = CAT_NONE,

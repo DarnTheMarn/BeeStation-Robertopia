@@ -14,6 +14,9 @@
 	damage = 10
 	fire_stacks = 1
 
+/obj/projectile/bullet/c9mm/improv
+	damage = 13
+
 // 10mm (Stechkin)
 
 /obj/projectile/bullet/c10mm
@@ -22,7 +25,7 @@
 
 /obj/projectile/bullet/c10mm/improv
 	name = "10mm bullet"
-	damage = 27
+	damage = 20
 
 /obj/projectile/bullet/c10mm_ap
 	name = "10mm armor-piercing bullet"

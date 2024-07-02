@@ -149,3 +149,10 @@ GLOBAL_LIST_INIT(sandbag_recipes, list ( \
 
 /obj/item/stack/sheet/meat/get_recipes()
 	return GLOB.meat_recipes
+
+/* Ammo Casings */
+
+/obj/item/stack/sheet/ammocasing
+	name = "ammo casing"
+	desc = "Brass casings used in the creation of ammo."
+	merge_type = /obj/item/stack/sheet/ammocasing
