@@ -35,7 +35,7 @@
 	caliber = ".45"
 	projectile_type = /obj/projectile/bullet/c45
 
-obj/item/ammo_casing/c45/improv
+/obj/item/ammo_casing/c45/improv
 	name = "improvised .45 bullet casing"
 	desc = "An improvised .45 bullet casing."
 	projectile_type = /obj/projectile/bullet/c45/improv
